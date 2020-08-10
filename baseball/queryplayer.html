@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Baseball Player Selector</title>
+</head>
+<body>
+  <h2>Baseball players</h2>
+  <form method="get" action="http://localhost:9999/baseball/query">
+    <b>Choose a player:</b>
+    <input type="checkbox" name="player" value="kershcl01">Clayton Kershaw
+    <input type="checkbox" name="player" value="molinya01">Yadier Molina
+    <input type="checkbox" name="player" value="goldspa01">Paul Goldschmidt
+
+    <p>
+      <b>Choose a stat:</b>
+      <input type="checkbox" name="stat" value="W">Wins
+      <input type="checkbox" name="stat" value="IP">Innings Pitched
+      <input type="checkbox" name="stat" value="SO">Strikeouts
+      <input type="checkbox" name="stat" value="HR">Homeruns
+      <input type="checkbox" name="stat" value="RBI">RBI's
+      <input type="checkbox" name="stat" value="SB">Stolen Bases
+
+    </p>
+    <input type="submit" value="Search">
+  </form>
+</body>
+</html>
